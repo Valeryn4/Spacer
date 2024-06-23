@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dx66722qc7d04"]
+
+[ext_resource type="Texture2D" uid="uid://c6kvsc6awc3yb" path="res://kenney/resources/space_shooter/space_shooter-1.png" id="1_4hxg0"]
+
+[resource]
+atlas = ExtResource("1_4hxg0")
+region = Rect2(1532, 3, 84, 84)

@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=3 uid="uid://cky5y2iyj7v0b"]
+
+[ext_resource type="PackedScene" uid="uid://b6t25oprwhwsu" path="res://spacer/content/ship_builder/modules/canon/canon.tscn" id="1_lffsv"]
+[ext_resource type="Script" path="res://canon_laser_1.gd" id="2_xw4bu"]
+[ext_resource type="PackedScene" uid="uid://mxsm5jw4v15a" path="res://spacer/content/projectiles/projectile_plasma.tscn" id="3_2vp6q"]
+[ext_resource type="Texture2D" uid="uid://cuxbprggkj8dq" path="res://spacer/resources/guns/guns.sprites/gun_0.tres" id="4_kbego"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_k3gjo"]
+resource_local_to_scene = true
+radius = 180.0
+
+[node name="Canon" instance=ExtResource("1_lffsv")]
+script = ExtResource("2_xw4bu")
+pkg_projectile = ExtResource("3_2vp6q")
+is_traveling_projectile = false
+spread_deg = 5.0
+shot_count_cicle = 3
+wait_time_shot_cicle = 0.3
+speed_rot_deg_from_sec = 180.0
+radius = 180.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Detector" index="0"]
+unique_name_in_owner = true
+shape = SubResource("CircleShape2D_k3gjo")
+
+[node name="Gun0" type="Sprite2D" parent="Head" index="0"]
+position = Vector2(5, 0)
+rotation = 1.57079
+texture = ExtResource("4_kbego")
+
+[node name="Emmitor" parent="Head" index="1"]
+position = Vector2(52, 0)

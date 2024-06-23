@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://4gp7io6kjrvi"]
+
+[ext_resource type="Texture2D" uid="uid://dgcjb0a43mwss" path="res://spacer/resources/parts/CosmoParts.png" id="1_t8eb2"]
+
+[resource]
+atlas = ExtResource("1_t8eb2")
+region = Rect2(47, 37, 14, 14)

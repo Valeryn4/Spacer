@@ -1,0 +1,4197 @@
+{
+	"textures": [
+		{
+			"image": "space_shooter-0.png",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"sprites": [
+				{
+					"filename": "space_shooter/Station/spaceStation_026",
+					"region": {
+						"x": 3,
+						"y": 3,
+						"w": 552,
+						"h": 800
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rockets/spaceRockets_004",
+					"region": {
+						"x": 3,
+						"y": 807,
+						"w": 271,
+						"h": 738
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rockets/spaceRockets_001",
+					"region": {
+						"x": 559,
+						"y": 3,
+						"w": 244,
+						"h": 748
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_020",
+					"region": {
+						"x": 278,
+						"y": 807,
+						"w": 248,
+						"h": 694
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rockets/spaceRockets_002",
+					"region": {
+						"x": 807,
+						"y": 3,
+						"w": 313,
+						"h": 618
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_017",
+					"region": {
+						"x": 1124,
+						"y": 3,
+						"w": 344,
+						"h": 577
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Meteors/spaceMeteors_003",
+					"region": {
+						"x": 1472,
+						"y": 3,
+						"w": 440,
+						"h": 442
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Meteors/spaceMeteors_001",
+					"region": {
+						"x": 3,
+						"y": 1549,
+						"w": 427,
+						"h": 454
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rockets/spaceRockets_003",
+					"region": {
+						"x": 530,
+						"y": 807,
+						"w": 235,
+						"h": 630
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Meteors/spaceMeteors_002",
+					"region": {
+						"x": 1472,
+						"y": 449,
+						"w": 431,
+						"h": 422
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_018",
+					"region": {
+						"x": 1124,
+						"y": 584,
+						"w": 344,
+						"h": 104
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Meteors/spaceMeteors_004",
+					"region": {
+						"x": 434,
+						"y": 1505,
+						"w": 423,
+						"h": 435
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_024",
+					"region": {
+						"x": 434,
+						"y": 1944,
+						"w": 344,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_030",
+					"region": {
+						"x": 1916,
+						"y": 3,
+						"w": 58,
+						"h": 340
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Ships/spaceShips_003",
+					"region": {
+						"x": 807,
+						"y": 625,
+						"w": 271,
+						"h": 169
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Ships/spaceShips_005",
+					"region": {
+						"x": 769,
+						"y": 798,
+						"w": 342,
+						"h": 301
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Ships/spaceShips_004",
+					"region": {
+						"x": 769,
+						"y": 1103,
+						"w": 186,
+						"h": 294
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_025",
+					"region": {
+						"x": 1082,
+						"y": 692,
+						"w": 344,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Ships/spaceShips_002",
+					"region": {
+						"x": 1115,
+						"y": 776,
+						"w": 252,
+						"h": 216
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_002",
+					"region": {
+						"x": 959,
+						"y": 1103,
+						"w": 79,
+						"h": 291
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_001",
+					"region": {
+						"x": 1042,
+						"y": 1103,
+						"w": 72,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_019",
+					"region": {
+						"x": 1371,
+						"y": 875,
+						"w": 344,
+						"h": 104
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_014",
+					"region": {
+						"x": 1371,
+						"y": 983,
+						"w": 335,
+						"h": 78
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_027",
+					"region": {
+						"x": 1115,
+						"y": 996,
+						"w": 244,
+						"h": 89
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Ships/spaceShips_007",
+					"region": {
+						"x": 1118,
+						"y": 1089,
+						"w": 228,
+						"h": 163
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Ships/spaceShips_008",
+					"region": {
+						"x": 1118,
+						"y": 1256,
+						"w": 212,
+						"h": 160
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_015",
+					"region": {
+						"x": 1363,
+						"y": 1065,
+						"w": 335,
+						"h": 78
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_023",
+					"region": {
+						"x": 1350,
+						"y": 1147,
+						"w": 330,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_024",
+					"region": {
+						"x": 1334,
+						"y": 1283,
+						"w": 330,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_031",
+					"region": {
+						"x": 1978,
+						"y": 3,
+						"w": 58,
+						"h": 264
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Ships/spaceShips_001",
+					"region": {
+						"x": 1719,
+						"y": 875,
+						"w": 198,
+						"h": 188
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_002",
+					"region": {
+						"x": 1702,
+						"y": 1067,
+						"w": 248,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_029",
+					"region": {
+						"x": 1684,
+						"y": 1151,
+						"w": 248,
+						"h": 116
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_007",
+					"region": {
+						"x": 1907,
+						"y": 449,
+						"w": 12,
+						"h": 252
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_016",
+					"region": {
+						"x": 530,
+						"y": 1441,
+						"w": 204,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_090",
+					"region": {
+						"x": 530,
+						"y": 1473,
+						"w": 102,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_015",
+					"region": {
+						"x": 769,
+						"y": 1401,
+						"w": 87,
+						"h": 100
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Ships/spaceShips_009",
+					"region": {
+						"x": 1684,
+						"y": 1271,
+						"w": 202,
+						"h": 149
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_007",
+					"region": {
+						"x": 1430,
+						"y": 692,
+						"w": 38,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Ships/spaceShips_006",
+					"region": {
+						"x": 1118,
+						"y": 1420,
+						"w": 198,
+						"h": 164
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_008",
+					"region": {
+						"x": 861,
+						"y": 1588,
+						"w": 24,
+						"h": 252
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_010",
+					"region": {
+						"x": 889,
+						"y": 1588,
+						"w": 32,
+						"h": 252
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_020",
+					"region": {
+						"x": 860,
+						"y": 1401,
+						"w": 162,
+						"h": 98
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_039",
+					"region": {
+						"x": 1026,
+						"y": 1427,
+						"w": 88,
+						"h": 131
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_025",
+					"region": {
+						"x": 925,
+						"y": 1562,
+						"w": 176,
+						"h": 176
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_005",
+					"region": {
+						"x": 1105,
+						"y": 1588,
+						"w": 168,
+						"h": 168
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_006",
+					"region": {
+						"x": 925,
+						"y": 1742,
+						"w": 168,
+						"h": 168
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_008",
+					"region": {
+						"x": 1097,
+						"y": 1760,
+						"w": 136,
+						"h": 156
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_003",
+					"region": {
+						"x": 1277,
+						"y": 1588,
+						"w": 84,
+						"h": 168
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_019",
+					"region": {
+						"x": 1237,
+						"y": 1760,
+						"w": 132,
+						"h": 170
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_040",
+					"region": {
+						"x": 861,
+						"y": 1914,
+						"w": 119,
+						"h": 131
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_052",
+					"region": {
+						"x": 984,
+						"y": 1914,
+						"w": 88,
+						"h": 131
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_034",
+					"region": {
+						"x": 1076,
+						"y": 1920,
+						"w": 64,
+						"h": 125
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_047",
+					"region": {
+						"x": 1144,
+						"y": 1920,
+						"w": 64,
+						"h": 125
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_013",
+					"region": {
+						"x": 1212,
+						"y": 1934,
+						"w": 106,
+						"h": 111
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_033",
+					"region": {
+						"x": 1322,
+						"y": 1934,
+						"w": 74,
+						"h": 111
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_003",
+					"region": {
+						"x": 1320,
+						"y": 1424,
+						"w": 81,
+						"h": 160
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_009",
+					"region": {
+						"x": 1405,
+						"y": 1419,
+						"w": 136,
+						"h": 156
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_053",
+					"region": {
+						"x": 1545,
+						"y": 1419,
+						"w": 119,
+						"h": 131
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_010",
+					"region": {
+						"x": 1668,
+						"y": 1424,
+						"w": 136,
+						"h": 156
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_004",
+					"region": {
+						"x": 1808,
+						"y": 1424,
+						"w": 84,
+						"h": 168
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_009",
+					"region": {
+						"x": 1365,
+						"y": 1588,
+						"w": 51,
+						"h": 167
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_011",
+					"region": {
+						"x": 1420,
+						"y": 1579,
+						"w": 136,
+						"h": 156
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_015",
+					"region": {
+						"x": 1373,
+						"y": 1759,
+						"w": 64,
+						"h": 171
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_004",
+					"region": {
+						"x": 1441,
+						"y": 1739,
+						"w": 79,
+						"h": 193
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_006",
+					"region": {
+						"x": 1560,
+						"y": 1554,
+						"w": 93,
+						"h": 169
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_013",
+					"region": {
+						"x": 1657,
+						"y": 1584,
+						"w": 136,
+						"h": 142
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_001",
+					"region": {
+						"x": 1797,
+						"y": 1596,
+						"w": 98,
+						"h": 133
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_005",
+					"region": {
+						"x": 1524,
+						"y": 1739,
+						"w": 74,
+						"h": 179
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_014",
+					"region": {
+						"x": 1602,
+						"y": 1730,
+						"w": 136,
+						"h": 146
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_015",
+					"region": {
+						"x": 1742,
+						"y": 1733,
+						"w": 136,
+						"h": 146
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_021",
+					"region": {
+						"x": 861,
+						"y": 1503,
+						"w": 54,
+						"h": 81
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_007",
+					"region": {
+						"x": 1890,
+						"y": 1271,
+						"w": 73,
+						"h": 144
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_016",
+					"region": {
+						"x": 1896,
+						"y": 1419,
+						"w": 64,
+						"h": 171
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_005",
+					"region": {
+						"x": 1964,
+						"y": 1419,
+						"w": 81,
+						"h": 140
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_006",
+					"region": {
+						"x": 1964,
+						"y": 1563,
+						"w": 81,
+						"h": 140
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_007",
+					"region": {
+						"x": 1899,
+						"y": 1594,
+						"w": 61,
+						"h": 165
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_025",
+					"region": {
+						"x": 1964,
+						"y": 1707,
+						"w": 81,
+						"h": 140
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_003",
+					"region": {
+						"x": 1882,
+						"y": 1763,
+						"w": 78,
+						"h": 141
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_037",
+					"region": {
+						"x": 1964,
+						"y": 1851,
+						"w": 81,
+						"h": 113
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_007",
+					"region": {
+						"x": 1371,
+						"y": 776,
+						"w": 92,
+						"h": 92
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_035",
+					"region": {
+						"x": 1524,
+						"y": 1922,
+						"w": 95,
+						"h": 123
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_031",
+					"region": {
+						"x": 1400,
+						"y": 1936,
+						"w": 120,
+						"h": 76
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_013",
+					"region": {
+						"x": 1623,
+						"y": 1880,
+						"w": 86,
+						"h": 163
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_016",
+					"region": {
+						"x": 1713,
+						"y": 1883,
+						"w": 136,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_041",
+					"region": {
+						"x": 1853,
+						"y": 1908,
+						"w": 103,
+						"h": 135
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_014",
+					"region": {
+						"x": 1907,
+						"y": 705,
+						"w": 86,
+						"h": 163
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_029",
+					"region": {
+						"x": 1921,
+						"y": 872,
+						"w": 86,
+						"h": 163
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_004",
+					"region": {
+						"x": 1967,
+						"y": 1039,
+						"w": 78,
+						"h": 141
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_024",
+					"region": {
+						"x": 1967,
+						"y": 1184,
+						"w": 78,
+						"h": 141
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_002",
+					"region": {
+						"x": 1967,
+						"y": 1329,
+						"w": 74,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_011",
+					"region": {
+						"x": 919,
+						"y": 1503,
+						"w": 59,
+						"h": 55
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_071",
+					"region": {
+						"x": 1082,
+						"y": 625,
+						"w": 38,
+						"h": 62
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_005",
+					"region": {
+						"x": 782,
+						"y": 1944,
+						"w": 74,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_043",
+					"region": {
+						"x": 1916,
+						"y": 347,
+						"w": 58,
+						"h": 94
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_030",
+					"region": {
+						"x": 1978,
+						"y": 271,
+						"w": 64,
+						"h": 171
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_027",
+					"region": {
+						"x": 1923,
+						"y": 445,
+						"w": 51,
+						"h": 167
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_023",
+					"region": {
+						"x": 1978,
+						"y": 446,
+						"w": 40,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_025",
+					"region": {
+						"x": 2022,
+						"y": 446,
+						"w": 23,
+						"h": 95
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_026",
+					"region": {
+						"x": 2022,
+						"y": 545,
+						"w": 23,
+						"h": 95
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_011",
+					"region": {
+						"x": 1997,
+						"y": 644,
+						"w": 48,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_022",
+					"region": {
+						"x": 1997,
+						"y": 736,
+						"w": 48,
+						"h": 84
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_031",
+					"region": {
+						"x": 2011,
+						"y": 824,
+						"w": 34,
+						"h": 76
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_014",
+					"region": {
+						"x": 1960,
+						"y": 1968,
+						"w": 73,
+						"h": 72
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_068",
+					"region": {
+						"x": 2011,
+						"y": 904,
+						"w": 34,
+						"h": 50
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_055",
+					"region": {
+						"x": 1936,
+						"y": 1151,
+						"w": 27,
+						"h": 58
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_022",
+					"region": {
+						"x": 1923,
+						"y": 616,
+						"w": 52,
+						"h": 81
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_088",
+					"region": {
+						"x": 278,
+						"y": 1505,
+						"w": 108,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_002",
+					"region": {
+						"x": 1936,
+						"y": 1213,
+						"w": 27,
+						"h": 46
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_072",
+					"region": {
+						"x": 861,
+						"y": 1844,
+						"w": 56,
+						"h": 62
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_073",
+					"region": {
+						"x": 738,
+						"y": 1441,
+						"w": 27,
+						"h": 58
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_086",
+					"region": {
+						"x": 559,
+						"y": 755,
+						"w": 72,
+						"h": 44
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_020",
+					"region": {
+						"x": 2011,
+						"y": 958,
+						"w": 33,
+						"h": 75
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_069",
+					"region": {
+						"x": 635,
+						"y": 755,
+						"w": 46,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_033",
+					"region": {
+						"x": 390,
+						"y": 1505,
+						"w": 28,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_057",
+					"region": {
+						"x": 982,
+						"y": 1503,
+						"w": 33,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_070",
+					"region": {
+						"x": 3,
+						"y": 2007,
+						"w": 42,
+						"h": 36
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_014",
+					"region": {
+						"x": 685,
+						"y": 755,
+						"w": 32,
+						"h": 44
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_015",
+					"region": {
+						"x": 721,
+						"y": 755,
+						"w": 32,
+						"h": 44
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_085",
+					"region": {
+						"x": 49,
+						"y": 2007,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		},
+		{
+			"image": "space_shooter-1.png",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"sprites": [
+				{
+					"filename": "space_shooter/Station/spaceStation_001",
+					"region": {
+						"x": 3,
+						"y": 3,
+						"w": 168,
+						"h": 72
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_028",
+					"region": {
+						"x": 175,
+						"y": 3,
+						"w": 164,
+						"h": 89
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_018",
+					"region": {
+						"x": 3,
+						"y": 79,
+						"w": 147,
+						"h": 90
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_028",
+					"region": {
+						"x": 154,
+						"y": 79,
+						"w": 17,
+						"h": 65
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_012",
+					"region": {
+						"x": 343,
+						"y": 3,
+						"w": 137,
+						"h": 52
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_017",
+					"region": {
+						"x": 484,
+						"y": 3,
+						"w": 136,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_026",
+					"region": {
+						"x": 343,
+						"y": 59,
+						"w": 136,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_027",
+					"region": {
+						"x": 175,
+						"y": 96,
+						"w": 136,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_010",
+					"region": {
+						"x": 315,
+						"y": 96,
+						"w": 24,
+						"h": 96
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_028",
+					"region": {
+						"x": 3,
+						"y": 173,
+						"w": 136,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_093",
+					"region": {
+						"x": 143,
+						"y": 173,
+						"w": 28,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_029",
+					"region": {
+						"x": 624,
+						"y": 3,
+						"w": 136,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_021",
+					"region": {
+						"x": 764,
+						"y": 3,
+						"w": 136,
+						"h": 83
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_019",
+					"region": {
+						"x": 904,
+						"y": 3,
+						"w": 136,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_022",
+					"region": {
+						"x": 1044,
+						"y": 3,
+						"w": 118,
+						"h": 104
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_087",
+					"region": {
+						"x": 904,
+						"y": 87,
+						"w": 116,
+						"h": 56
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_014",
+					"region": {
+						"x": 764,
+						"y": 90,
+						"w": 112,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_032",
+					"region": {
+						"x": 880,
+						"y": 90,
+						"w": 20,
+						"h": 92
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_012",
+					"region": {
+						"x": 483,
+						"y": 135,
+						"w": 108,
+						"h": 113
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_018",
+					"region": {
+						"x": 343,
+						"y": 191,
+						"w": 108,
+						"h": 108
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_011",
+					"region": {
+						"x": 315,
+						"y": 196,
+						"w": 24,
+						"h": 96
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_012",
+					"region": {
+						"x": 455,
+						"y": 191,
+						"w": 24,
+						"h": 96
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_030",
+					"region": {
+						"x": 175,
+						"y": 228,
+						"w": 104,
+						"h": 68
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_008",
+					"region": {
+						"x": 283,
+						"y": 296,
+						"w": 56,
+						"h": 56
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_005",
+					"region": {
+						"x": 283,
+						"y": 228,
+						"w": 26,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_058",
+					"region": {
+						"x": 143,
+						"y": 241,
+						"w": 28,
+						"h": 56
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_054",
+					"region": {
+						"x": 175,
+						"y": 300,
+						"w": 103,
+						"h": 135
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_076",
+					"region": {
+						"x": 143,
+						"y": 301,
+						"w": 28,
+						"h": 56
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_016",
+					"region": {
+						"x": 3,
+						"y": 305,
+						"w": 100,
+						"h": 102
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_008",
+					"region": {
+						"x": 107,
+						"y": 361,
+						"w": 64,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_013",
+					"region": {
+						"x": 107,
+						"y": 305,
+						"w": 32,
+						"h": 44
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_003",
+					"region": {
+						"x": 3,
+						"y": 411,
+						"w": 100,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_006",
+					"region": {
+						"x": 595,
+						"y": 135,
+						"w": 100,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_010",
+					"region": {
+						"x": 699,
+						"y": 135,
+						"w": 56,
+						"h": 56
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_009",
+					"region": {
+						"x": 759,
+						"y": 182,
+						"w": 100,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_025",
+					"region": {
+						"x": 699,
+						"y": 195,
+						"w": 56,
+						"h": 56
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_012",
+					"region": {
+						"x": 595,
+						"y": 225,
+						"w": 100,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_009",
+					"region": {
+						"x": 699,
+						"y": 255,
+						"w": 56,
+						"h": 49
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_015",
+					"region": {
+						"x": 483,
+						"y": 252,
+						"w": 100,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_027",
+					"region": {
+						"x": 455,
+						"y": 291,
+						"w": 23,
+						"h": 95
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_018",
+					"region": {
+						"x": 343,
+						"y": 303,
+						"w": 100,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_066",
+					"region": {
+						"x": 282,
+						"y": 356,
+						"w": 52,
+						"h": 52
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_002",
+					"region": {
+						"x": 1166,
+						"y": 3,
+						"w": 98,
+						"h": 133
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_023",
+					"region": {
+						"x": 1024,
+						"y": 111,
+						"w": 98,
+						"h": 133
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_029",
+					"region": {
+						"x": 1126,
+						"y": 111,
+						"w": 36,
+						"h": 65
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_022",
+					"region": {
+						"x": 904,
+						"y": 147,
+						"w": 96,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_035",
+					"region": {
+						"x": 863,
+						"y": 186,
+						"w": 36,
+						"h": 65
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_004",
+					"region": {
+						"x": 863,
+						"y": 255,
+						"w": 35,
+						"h": 102
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_097",
+					"region": {
+						"x": 759,
+						"y": 272,
+						"w": 96,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_084",
+					"region": {
+						"x": 699,
+						"y": 308,
+						"w": 52,
+						"h": 52
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_098",
+					"region": {
+						"x": 587,
+						"y": 315,
+						"w": 96,
+						"h": 139
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_042",
+					"region": {
+						"x": 687,
+						"y": 364,
+						"w": 68,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_012",
+					"region": {
+						"x": 482,
+						"y": 342,
+						"w": 96,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_030",
+					"region": {
+						"x": 447,
+						"y": 390,
+						"w": 31,
+						"h": 98
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_048",
+					"region": {
+						"x": 482,
+						"y": 434,
+						"w": 95,
+						"h": 123
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_089",
+					"region": {
+						"x": 581,
+						"y": 458,
+						"w": 95,
+						"h": 52
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_009",
+					"region": {
+						"x": 338,
+						"y": 393,
+						"w": 92,
+						"h": 92
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_012",
+					"region": {
+						"x": 282,
+						"y": 412,
+						"w": 52,
+						"h": 50
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_017",
+					"region": {
+						"x": 175,
+						"y": 439,
+						"w": 89,
+						"h": 153
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_009",
+					"region": {
+						"x": 107,
+						"y": 453,
+						"w": 64,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_013",
+					"region": {
+						"x": 268,
+						"y": 466,
+						"w": 64,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_018",
+					"region": {
+						"x": 3,
+						"y": 501,
+						"w": 89,
+						"h": 153
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_021",
+					"region": {
+						"x": 96,
+						"y": 545,
+						"w": 75,
+						"h": 140
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_031",
+					"region": {
+						"x": 3,
+						"y": 658,
+						"w": 89,
+						"h": 153
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_023",
+					"region": {
+						"x": 336,
+						"y": 489,
+						"w": 88,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_013",
+					"region": {
+						"x": 268,
+						"y": 558,
+						"w": 63,
+						"h": 65
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_059",
+					"region": {
+						"x": 428,
+						"y": 492,
+						"w": 48,
+						"h": 58
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_077",
+					"region": {
+						"x": 428,
+						"y": 554,
+						"w": 48,
+						"h": 58
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_044",
+					"region": {
+						"x": 175,
+						"y": 596,
+						"w": 86,
+						"h": 124
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_095",
+					"region": {
+						"x": 96,
+						"y": 689,
+						"w": 75,
+						"h": 140
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_011",
+					"region": {
+						"x": 3,
+						"y": 815,
+						"w": 84,
+						"h": 100
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_006",
+					"region": {
+						"x": 335,
+						"y": 581,
+						"w": 84,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_010",
+					"region": {
+						"x": 265,
+						"y": 627,
+						"w": 62,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_015",
+					"region": {
+						"x": 1268,
+						"y": 3,
+						"w": 84,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_001",
+					"region": {
+						"x": 1356,
+						"y": 3,
+						"w": 84,
+						"h": 84
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_002",
+					"region": {
+						"x": 1444,
+						"y": 3,
+						"w": 84,
+						"h": 84
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Building/spaceBuilding_017",
+					"region": {
+						"x": 1532,
+						"y": 3,
+						"w": 84,
+						"h": 84
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_050",
+					"region": {
+						"x": 1620,
+						"y": 3,
+						"w": 81,
+						"h": 113
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_045",
+					"region": {
+						"x": 1356,
+						"y": 91,
+						"w": 80,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_016",
+					"region": {
+						"x": 1268,
+						"y": 95,
+						"w": 80,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_003",
+					"region": {
+						"x": 1166,
+						"y": 140,
+						"w": 80,
+						"h": 56
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_005",
+					"region": {
+						"x": 1126,
+						"y": 180,
+						"w": 35,
+						"h": 102
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_004",
+					"region": {
+						"x": 1250,
+						"y": 179,
+						"w": 80,
+						"h": 56
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_062",
+					"region": {
+						"x": 1334,
+						"y": 179,
+						"w": 18,
+						"h": 66
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_005",
+					"region": {
+						"x": 1165,
+						"y": 200,
+						"w": 80,
+						"h": 56
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_096",
+					"region": {
+						"x": 1249,
+						"y": 239,
+						"w": 75,
+						"h": 140
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_038",
+					"region": {
+						"x": 1165,
+						"y": 260,
+						"w": 75,
+						"h": 124
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_051",
+					"region": {
+						"x": 1004,
+						"y": 248,
+						"w": 75,
+						"h": 124
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_036",
+					"region": {
+						"x": 1083,
+						"y": 248,
+						"w": 39,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_006",
+					"region": {
+						"x": 1126,
+						"y": 286,
+						"w": 35,
+						"h": 102
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_008",
+					"region": {
+						"x": 1083,
+						"y": 340,
+						"w": 38,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_046",
+					"region": {
+						"x": 902,
+						"y": 290,
+						"w": 74,
+						"h": 111
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_009",
+					"region": {
+						"x": 859,
+						"y": 361,
+						"w": 38,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_037",
+					"region": {
+						"x": 980,
+						"y": 290,
+						"w": 19,
+						"h": 91
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_008",
+					"region": {
+						"x": 1003,
+						"y": 376,
+						"w": 74,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_065",
+					"region": {
+						"x": 980,
+						"y": 385,
+						"w": 19,
+						"h": 66
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_011",
+					"region": {
+						"x": 901,
+						"y": 405,
+						"w": 74,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_083",
+					"region": {
+						"x": 979,
+						"y": 455,
+						"w": 19,
+						"h": 66
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_014",
+					"region": {
+						"x": 759,
+						"y": 415,
+						"w": 74,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_063",
+					"region": {
+						"x": 837,
+						"y": 415,
+						"w": 18,
+						"h": 66
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_017",
+					"region": {
+						"x": 680,
+						"y": 500,
+						"w": 74,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_061",
+					"region": {
+						"x": 859,
+						"y": 445,
+						"w": 33,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_064",
+					"region": {
+						"x": 837,
+						"y": 485,
+						"w": 18,
+						"h": 66
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_008",
+					"region": {
+						"x": 758,
+						"y": 505,
+						"w": 73,
+						"h": 144
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_026",
+					"region": {
+						"x": 896,
+						"y": 495,
+						"w": 73,
+						"h": 144
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_079",
+					"region": {
+						"x": 859,
+						"y": 513,
+						"w": 33,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_080",
+					"region": {
+						"x": 835,
+						"y": 555,
+						"w": 18,
+						"h": 66
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_075",
+					"region": {
+						"x": 857,
+						"y": 581,
+						"w": 33,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_081",
+					"region": {
+						"x": 835,
+						"y": 625,
+						"w": 18,
+						"h": 66
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_021",
+					"region": {
+						"x": 857,
+						"y": 636,
+						"w": 32,
+						"h": 132
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_007",
+					"region": {
+						"x": 581,
+						"y": 514,
+						"w": 72,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_082",
+					"region": {
+						"x": 657,
+						"y": 514,
+						"w": 18,
+						"h": 66
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Rocket parts/spaceRocketParts_024",
+					"region": {
+						"x": 657,
+						"y": 590,
+						"w": 72,
+						"h": 72
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_038",
+					"region": {
+						"x": 733,
+						"y": 590,
+						"w": 21,
+						"h": 69
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_011",
+					"region": {
+						"x": 758,
+						"y": 653,
+						"w": 71,
+						"h": 156
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_039",
+					"region": {
+						"x": 733,
+						"y": 663,
+						"w": 21,
+						"h": 69
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_012",
+					"region": {
+						"x": 480,
+						"y": 561,
+						"w": 71,
+						"h": 156
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_091",
+					"region": {
+						"x": 555,
+						"y": 561,
+						"w": 22,
+						"h": 61
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_028",
+					"region": {
+						"x": 581,
+						"y": 606,
+						"w": 71,
+						"h": 156
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_040",
+					"region": {
+						"x": 555,
+						"y": 626,
+						"w": 21,
+						"h": 69
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_034",
+					"region": {
+						"x": 555,
+						"y": 699,
+						"w": 21,
+						"h": 45
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_019",
+					"region": {
+						"x": 656,
+						"y": 666,
+						"w": 71,
+						"h": 152
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_010",
+					"region": {
+						"x": 423,
+						"y": 616,
+						"w": 51,
+						"h": 167
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_020",
+					"region": {
+						"x": 478,
+						"y": 721,
+						"w": 71,
+						"h": 152
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_032",
+					"region": {
+						"x": 331,
+						"y": 673,
+						"w": 71,
+						"h": 152
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_001",
+					"region": {
+						"x": 406,
+						"y": 787,
+						"w": 68,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_013",
+					"region": {
+						"x": 265,
+						"y": 717,
+						"w": 62,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_036",
+					"region": {
+						"x": 175,
+						"y": 724,
+						"w": 69,
+						"h": 140
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_049",
+					"region": {
+						"x": 248,
+						"y": 807,
+						"w": 69,
+						"h": 140
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_017",
+					"region": {
+						"x": 91,
+						"y": 833,
+						"w": 69,
+						"h": 71
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_004",
+					"region": {
+						"x": 164,
+						"y": 868,
+						"w": 68,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_007",
+					"region": {
+						"x": 91,
+						"y": 908,
+						"w": 68,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Astronauts/spaceAstronauts_016",
+					"region": {
+						"x": 321,
+						"y": 829,
+						"w": 62,
+						"h": 86
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_022",
+					"region": {
+						"x": 3,
+						"y": 919,
+						"w": 43,
+						"h": 92
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Station/spaceStation_010",
+					"region": {
+						"x": 50,
+						"y": 919,
+						"w": 32,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_023",
+					"region": {
+						"x": 553,
+						"y": 766,
+						"w": 43,
+						"h": 92
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_024",
+					"region": {
+						"x": 600,
+						"y": 766,
+						"w": 43,
+						"h": 92
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_006",
+					"region": {
+						"x": 1440,
+						"y": 91,
+						"w": 41,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_001",
+					"region": {
+						"x": 1485,
+						"y": 91,
+						"w": 40,
+						"h": 69
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_002",
+					"region": {
+						"x": 1440,
+						"y": 137,
+						"w": 40,
+						"h": 69
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_003",
+					"region": {
+						"x": 1529,
+						"y": 91,
+						"w": 40,
+						"h": 69
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_019",
+					"region": {
+						"x": 1573,
+						"y": 91,
+						"w": 40,
+						"h": 69
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_020",
+					"region": {
+						"x": 1705,
+						"y": 3,
+						"w": 40,
+						"h": 69
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_021",
+					"region": {
+						"x": 1749,
+						"y": 3,
+						"w": 40,
+						"h": 69
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_060",
+					"region": {
+						"x": 1793,
+						"y": 3,
+						"w": 40,
+						"h": 60
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_078",
+					"region": {
+						"x": 1837,
+						"y": 3,
+						"w": 40,
+						"h": 60
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_094",
+					"region": {
+						"x": 1881,
+						"y": 3,
+						"w": 32,
+						"h": 84
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_092",
+					"region": {
+						"x": 1793,
+						"y": 67,
+						"w": 32,
+						"h": 76
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_067",
+					"region": {
+						"x": 1829,
+						"y": 67,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_004",
+					"region": {
+						"x": 1705,
+						"y": 76,
+						"w": 28,
+						"h": 50
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_018",
+					"region": {
+						"x": 1737,
+						"y": 76,
+						"w": 28,
+						"h": 46
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_001",
+					"region": {
+						"x": 1737,
+						"y": 126,
+						"w": 26,
+						"h": 60
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Effects/spaceEffects_003",
+					"region": {
+						"x": 1617,
+						"y": 120,
+						"w": 26,
+						"h": 60
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_056",
+					"region": {
+						"x": 1647,
+						"y": 120,
+						"w": 25,
+						"h": 60
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Parts/spaceParts_074",
+					"region": {
+						"x": 1676,
+						"y": 120,
+						"w": 25,
+						"h": 60
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_016",
+					"region": {
+						"x": 1705,
+						"y": 130,
+						"w": 25,
+						"h": 49
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_017",
+					"region": {
+						"x": 1705,
+						"y": 183,
+						"w": 25,
+						"h": 49
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "space_shooter/Missiles/spaceMissiles_018",
+					"region": {
+						"x": 1917,
+						"y": 3,
+						"w": 25,
+						"h": 49
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:4752685466e49e64a00c961d209cb678:42c3e3a669292e68a9163a105e0643ba:db9d371f4ecc9a0a44a9ed4887e29fcf$"
+	}
+}

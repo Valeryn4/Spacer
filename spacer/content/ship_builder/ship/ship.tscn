@@ -1,0 +1,54 @@
+[gd_scene load_steps=6 format=3 uid="uid://pehy35ns2ee6"]
+
+[ext_resource type="PackedScene" uid="uid://dsk5u8l6mb6lm" path="res://spacer/content/ship_builder/ship_structure_root.tscn" id="1_4scub"]
+[ext_resource type="Script" path="res://spacer/content/ship_builder/ship/ship.gd" id="1_tftoq"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kfdee"]
+resource_local_to_scene = true
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5qpqe"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ylwlp"]
+resource_local_to_scene = true
+
+[node name="Ship" type="RigidBody2D" groups=["DAMAGED"]]
+collision_layer = 16
+collision_mask = 17
+freeze = true
+linear_damp = 1.0
+angular_damp = 3.0
+script = ExtResource("1_tftoq")
+
+[node name="ShipBuilderRoot" parent="." instance=ExtResource("1_4scub")]
+unique_name_in_owner = true
+
+[node name="Target" type="Node2D" parent="."]
+unique_name_in_owner = true
+
+[node name="Area2DRadar" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 16
+input_pickable = false
+monitorable = false
+
+[node name="CollisionShapeRadar" type="CollisionShape2D" parent="Area2DRadar"]
+unique_name_in_owner = true
+shape = SubResource("CircleShape2D_kfdee")
+
+[node name="Detector" type="Area2D" parent="."]
+collision_layer = 32
+collision_mask = 0
+monitoring = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Detector"]
+shape = SubResource("CircleShape2D_5qpqe")
+
+[node name="Shield" type="CharacterBody2D" parent="."]
+collision_layer = 64
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shield"]
+shape = SubResource("CircleShape2D_ylwlp")
+
+[connection signal="body_entered" from="Area2DRadar" to="." method="_on_area_2d_radar_body_entered"]
+[connection signal="body_exited" from="Area2DRadar" to="." method="_on_area_2d_radar_body_exited"]

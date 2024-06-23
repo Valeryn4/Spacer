@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://id7fuyko337c"]
+
+[ext_resource type="Script" path="res://spacer/content/ship_builder_v2/modules/module.gd" id="1_swqup"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_10eh0"]
+radius = 17.0294
+
+[node name="Module" type="Area2D"]
+collision_layer = 2048
+collision_mask = 0
+script = ExtResource("1_swqup")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_10eh0")

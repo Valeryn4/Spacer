@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="GameStructureInfoData" load_steps=2 format=3 uid="uid://jsx6dfbpc51b"]
+
+[ext_resource type="Script" path="res://spacer/content/ship_builder/structures/info_data/structure_info_data.gd" id="1_i2cxn"]
+
+[resource]
+script = ExtResource("1_i2cxn")
+info_name = &"BaseStruct"
+info_description = "description"
+info_structure_type = -1
+info_structure_key = -1
+param_base_price = 0.0
+param_mass = 0.0
+param_armor = 0.0
+param_health = 0.0
+req_ship_energy = 0.0
+add_ship_energy = 0.0
+add_ship_shield = 0.0
+add_ship_health = 0.0

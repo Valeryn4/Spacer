@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bgg7mi2qk5jeb"]
+
+[ext_resource type="Texture2D" uid="uid://civmft1l40thd" path="res://kenney/resources/prototype/Dark/texture_02.png" id="1_m22k5"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1920, 1080)
+
+[node name="TextureRect" type="TextureRect" parent="ParallaxLayer"]
+custom_minimum_size = Vector2(1920, 1080)
+offset_right = 256.0
+offset_bottom = 256.0
+texture = ExtResource("1_m22k5")
+stretch_mode = 1

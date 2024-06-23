@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6t25oprwhwsu"]
+
+[ext_resource type="Script" path="res://spacer/content/ship_builder/modules/canon/canon.gd" id="1_sk5x5"]
+
+[node name="Canon" type="Node2D" groups=["CANNON"]]
+script = ExtResource("1_sk5x5")
+
+[node name="Detector" type="Area2D" parent="."]
+unique_name_in_owner = true
+collision_layer = 0
+collision_mask = 32
+input_pickable = false
+monitorable = false
+
+[node name="Head" type="Node2D" parent="."]
+unique_name_in_owner = true
+
+[node name="Emmitor" type="Marker2D" parent="Head"]
+unique_name_in_owner = true
+position = Vector2(48, 0)
+
+[node name="TimerReload" type="Timer" parent="."]
+unique_name_in_owner = true
+one_shot = true
+
+[node name="TimerShot" type="Timer" parent="."]
+unique_name_in_owner = true
+one_shot = true
+
+[node name="RadiusAreaHelper" type="Node2D" parent="."]
+unique_name_in_owner = true
+
+[connection signal="area_entered" from="Detector" to="." method="_on_detector_area_entered"]
+[connection signal="area_exited" from="Detector" to="." method="_on_detector_area_exited"]
+[connection signal="timeout" from="TimerReload" to="." method="_on_timer_reload_timeout"]
+[connection signal="timeout" from="TimerShot" to="." method="_on_timer_shot_timeout"]

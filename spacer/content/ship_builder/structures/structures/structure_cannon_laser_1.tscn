@@ -1,0 +1,61 @@
+[gd_scene load_steps=8 format=3 uid="uid://bc7n6314fcou7"]
+
+[ext_resource type="PackedScene" uid="uid://cf8v7iufmir5j" path="res://spacer/content/ship_builder/structures/structure_base.tscn" id="1_4mols"]
+[ext_resource type="Texture2D" uid="uid://krqf650hk0v1" path="res://spacer/resources/guns/guns.sprites/gun_plate.tres" id="2_0c1q8"]
+[ext_resource type="PackedScene" uid="uid://cky5y2iyj7v0b" path="res://spacer/content/ship_builder/modules/canon/canon_laser_1.tscn" id="3_x7xal"]
+[ext_resource type="PackedScene" uid="uid://d2cvykd55pkb5" path="res://spacer/content/ship_builder/structures/connector.tscn" id="4_dbv18"]
+[ext_resource type="Texture2D" uid="uid://ceb7xw1ohid2w" path="res://kenney/resources/cursor_default/cursor_default.sprites/cursor_default/disabled.tres" id="6_c3eio"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3k5ag"]
+size = Vector2(14, 14)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8nfui"]
+
+[node name="StructCanon" instance=ExtResource("1_4mols")]
+structure_key = 7
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="0"]
+shape = SubResource("RectangleShape2D_3k5ag")
+
+[node name="Sprite" type="Sprite2D" parent="CollisionShape2D" index="0"]
+texture = ExtResource("2_0c1q8")
+
+[node name="Canon" parent="CollisionShape2D" index="1" instance=ExtResource("3_x7xal")]
+rotation = -1.57079
+
+[node name="Panel" parent="Hover" index="0"]
+offset_left = -13.0
+offset_top = -13.0
+offset_right = 13.0
+offset_bottom = 13.0
+
+[node name="Panel" parent="Select" index="0"]
+offset_left = -13.0
+offset_top = -13.0
+offset_right = 13.0
+offset_bottom = 13.0
+
+[node name="Connector" parent="Area2DDetector" index="0" instance=ExtResource("4_dbv18")]
+position = Vector2(8, 0)
+
+[node name="Connector2" parent="Area2DDetector" index="1" instance=ExtResource("4_dbv18")]
+position = Vector2(-8, 0)
+rotation = -3.14159
+
+[node name="Connector3" parent="Area2DDetector" index="2" instance=ExtResource("4_dbv18")]
+position = Vector2(0, 8)
+rotation = -4.71238
+
+[node name="Connector4" parent="Area2DDetector" index="3" instance=ExtResource("4_dbv18")]
+position = Vector2(0, -8)
+rotation = -7.85397
+
+[node name="CollisionShape2D" parent="Area2DMuse" index="0"]
+shape = SubResource("RectangleShape2D_8nfui")
+
+[node name="ButtonRoot" parent="." index="5"]
+visible = false
+
+[node name="Failed" parent="ButtonRoot" index="0"]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("6_c3eio")

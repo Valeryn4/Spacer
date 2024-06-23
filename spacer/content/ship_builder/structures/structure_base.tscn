@@ -1,0 +1,84 @@
+[gd_scene load_steps=5 format=3 uid="uid://cf8v7iufmir5j"]
+
+[ext_resource type="Script" path="res://spacer/content/ship_builder/structures/structure_base.gd" id="1_t1yf7"]
+[ext_resource type="Texture2D" uid="uid://u0f4ws8wi4no" path="res://spacer/resources/ui/select.png" id="2_7bgj7"]
+[ext_resource type="Texture2D" uid="uid://dwm488ymho4qm" path="res://kenney/resources/cursor_default/cursor_default.sprites/cursor_default/cross_small.tres" id="6_5vmma"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vycjj"]
+texture = ExtResource("2_7bgj7")
+texture_margin_left = 5.0
+texture_margin_top = 5.0
+texture_margin_right = 5.0
+texture_margin_bottom = 5.0
+
+[node name="StructureBase" type="RigidBody2D"]
+collision_layer = 4
+collision_mask = 21
+freeze_mode = 1
+script = ExtResource("1_t1yf7")
+
+[node name="Hover" type="Node2D" parent="."]
+unique_name_in_owner = true
+
+[node name="Panel" type="Panel" parent="Hover"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.5
+offset_top = -53.5
+offset_right = 60.5
+offset_bottom = 53.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_vycjj")
+
+[node name="Select" type="Node2D" parent="."]
+unique_name_in_owner = true
+
+[node name="Panel" type="Panel" parent="Select"]
+modulate = Color(0.953125, 0.690062, 0.0670166, 1)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.5
+offset_top = -53.5
+offset_right = 60.5
+offset_bottom = 53.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_vycjj")
+
+[node name="Area2DDetector" type="Area2D" parent="."]
+unique_name_in_owner = true
+collision_layer = 4
+collision_mask = 6
+input_pickable = false
+
+[node name="Area2DMuse" type="Area2D" parent="."]
+collision_layer = 2147483648
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2DMuse"]
+
+[node name="ButtonRoot" type="Node2D" parent="."]
+unique_name_in_owner = true
+top_level = true
+metadata/_edit_lock_ = true
+
+[node name="Failed" type="Sprite2D" parent="ButtonRoot"]
+unique_name_in_owner = true
+modulate = Color(0.919319, 0.0687801, 0.19848, 1)
+texture = ExtResource("6_5vmma")
+
+[connection signal="area_entered" from="Area2DDetector" to="." method="_on_area_2d_area_entered"]
+[connection signal="area_exited" from="Area2DDetector" to="." method="_on_area_2d_area_exited"]
+[connection signal="body_entered" from="Area2DDetector" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2DDetector" to="." method="_on_area_2d_body_exited"]
+[connection signal="mouse_entered" from="Area2DMuse" to="." method="_on_area_2d_muse_mouse_entered"]
+[connection signal="mouse_exited" from="Area2DMuse" to="." method="_on_area_2d_muse_mouse_exited"]

@@ -1,0 +1,93 @@
+{
+	"textures": [
+		{
+			"image": "engine.png",
+			"size": {
+				"w": 64,
+				"h": 64
+			},
+			"sprites": [
+				{
+					"filename": "engine_4.png",
+					"region": {
+						"x": 2,
+						"y": 2,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "engine_3.png",
+					"region": {
+						"x": 2,
+						"y": 21,
+						"w": 12,
+						"h": 16
+					},
+					"margin": {
+						"x": 2,
+						"y": 0,
+						"w": 4,
+						"h": 0
+					}
+				},
+				{
+					"filename": "engine_0.png",
+					"region": {
+						"x": 2,
+						"y": 40,
+						"w": 10,
+						"h": 16
+					},
+					"margin": {
+						"x": 3,
+						"y": 0,
+						"w": 6,
+						"h": 0
+					}
+				},
+				{
+					"filename": "engine_1.png",
+					"region": {
+						"x": 15,
+						"y": 40,
+						"w": 9,
+						"h": 16
+					},
+					"margin": {
+						"x": 3,
+						"y": 0,
+						"w": 7,
+						"h": 0
+					}
+				},
+				{
+					"filename": "engine_2.png",
+					"region": {
+						"x": 17,
+						"y": 21,
+						"w": 11,
+						"h": 13
+					},
+					"margin": {
+						"x": 2,
+						"y": 2,
+						"w": 5,
+						"h": 3
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:cac6520a035047a92962e8bf53d933ad:a98944f469d28f8c9a5b81e8c250eef0:371f9d2e6ff8fec63c0b96aca10646bb$"
+	}
+}

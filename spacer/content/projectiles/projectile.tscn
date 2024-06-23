@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdqyw6ptqr2oe"]
+
+[ext_resource type="Script" path="res://spacer/content/projectiles/projectile.gd" id="1_k0wnn"]
+
+[node name="Projectile" type="CharacterBody2D"]
+collision_layer = 0
+collision_mask = 81
+motion_mode = 1
+platform_on_leave = 2
+script = ExtResource("1_k0wnn")
+traveling_deg_sec = 360.0
+
+[node name="Area2DExplotion" type="Area2D" parent="."]
+unique_name_in_owner = true
+collision_layer = 0
+collision_mask = 80
+input_pickable = false
+monitorable = false
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+unique_name_in_owner = true

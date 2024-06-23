@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://d2cvykd55pkb5"]
+
+[ext_resource type="Script" path="res://spacer/content/ship_builder/structures/connector.gd" id="1_43asq"]
+[ext_resource type="Texture2D" uid="uid://pwuktjbw3lye" path="res://spacer/resources/parts/slot_connect.tres" id="2_s1usu"]
+[ext_resource type="Texture2D" uid="uid://c6qlp0f6qujdj" path="res://spacer/resources/parts/slot_target.tres" id="3_fpx3u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_82lon"]
+size = Vector2(2, 8)
+
+[node name="Connector" type="CollisionShape2D"]
+z_index = -1
+shape = SubResource("RectangleShape2D_82lon")
+script = ExtResource("1_43asq")
+
+[node name="In" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+modulate = Color(0.915292, 0.921875, 0.0792236, 1)
+position = Vector2(4, 0)
+texture = ExtResource("2_s1usu")
+
+[node name="Out" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+modulate = Color(0.080719, 0.898438, 0.150992, 1)
+position = Vector2(3, 0)
+rotation = 3.14159
+texture = ExtResource("3_fpx3u")

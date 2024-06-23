@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://ccnaov2x8h8nq"]
+
+[ext_resource type="Texture2D" uid="uid://c1md3k0fggtdm" path="res://kenney/resources/icons/icons.png" id="1_42ahc"]
+
+[resource]
+atlas = ExtResource("1_42ahc")
+region = Rect2(290, 86, 16, 16)

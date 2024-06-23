@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://chsytnvjnjx61"]
+
+[ext_resource type="Texture2D" uid="uid://solampe2pugy" path="res://spacer/resources/engine/engine.png" id="1_vjrpk"]
+
+[resource]
+atlas = ExtResource("1_vjrpk")
+region = Rect2(17, 21, 11, 13)
+margin = Rect2(2, 2, 5, 3)

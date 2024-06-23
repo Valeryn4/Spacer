@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://cbs2yos7m77pm"]
+
+[ext_resource type="Texture2D" uid="uid://dqobpynjty3np" path="res://viper/resources/viper_ships.png" id="1_ghy35"]
+
+[resource]
+atlas = ExtResource("1_ghy35")
+region = Rect2(426, 41, 76, 48)

@@ -1,0 +1,66 @@
+[gd_scene load_steps=9 format=3 uid="uid://dh3g2lkacnv5i"]
+
+[ext_resource type="Script" path="res://spacer/content/ship_builder/ship_build_stantion.gd" id="1_51ch1"]
+[ext_resource type="PackedScene" uid="uid://pehy35ns2ee6" path="res://spacer/content/ship_builder/ship/ship.tscn" id="2_pygks"]
+[ext_resource type="Script" path="res://spacer/content/ship_builder/structure_list.gd" id="3_bvqrt"]
+[ext_resource type="PackedScene" uid="uid://d28pn58s22ecs" path="res://spacer/content/ship_builder/structures/structures/structure_base_1_left.tscn" id="4_rvxky"]
+[ext_resource type="PackedScene" uid="uid://bw4qwpdslaw3s" path="res://spacer/content/ship_builder/structures/structures/structure_base_1_right.tscn" id="5_yp7ws"]
+[ext_resource type="PackedScene" uid="uid://wo5c30yy5ltu" path="res://spacer/content/ship_builder/structures/structures/structure_base_2.tscn" id="6_u0c5k"]
+[ext_resource type="PackedScene" uid="uid://b1prpxux4skv3" path="res://spacer/content/ship_builder/structures/structures/structure_base_3_left.tscn" id="7_m7ndu"]
+[ext_resource type="PackedScene" uid="uid://bsv2nvml76goq" path="res://spacer/content/ship_builder/structures/structures/structure_base_3_right.tscn" id="8_ofvfk"]
+
+[node name="ShipBuilder" type="Node2D" node_paths=PackedStringArray("start_ship")]
+position = Vector2(0, -432)
+script = ExtResource("1_51ch1")
+start_ship = NodePath("Ship")
+
+[node name="Ship" parent="." instance=ExtResource("2_pygks")]
+
+[node name="Structures" type="Node2D" parent="."]
+unique_name_in_owner = true
+script = ExtResource("3_bvqrt")
+
+[node name="StructureBase" parent="Structures" instance=ExtResource("4_rvxky")]
+position = Vector2(-87, -24)
+
+[node name="StructureBase8" parent="Structures" instance=ExtResource("4_rvxky")]
+position = Vector2(-86, -175)
+
+[node name="StructureBase2" parent="Structures" instance=ExtResource("5_yp7ws")]
+position = Vector2(-85, -81)
+
+[node name="StructureBase7" parent="Structures" instance=ExtResource("5_yp7ws")]
+position = Vector2(-84, -129)
+
+[node name="StructureBase3" parent="Structures" instance=ExtResource("6_u0c5k")]
+position = Vector2(-254, -41)
+
+[node name="StructureBase6" parent="Structures" instance=ExtResource("6_u0c5k")]
+position = Vector2(-249, -93)
+
+[node name="StructureBase4" parent="Structures" instance=ExtResource("7_m7ndu")]
+position = Vector2(-176, -32)
+
+[node name="StructureBase10" parent="Structures" instance=ExtResource("7_m7ndu")]
+position = Vector2(-172, -133)
+
+[node name="StructureBase5" parent="Structures" instance=ExtResource("8_ofvfk")]
+position = Vector2(-174, -64)
+
+[node name="StructureBase9" parent="Structures" instance=ExtResource("8_ofvfk")]
+position = Vector2(-174, -99)
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 546.0
+offset_top = -55.0
+offset_right = 648.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "APPLY"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://bp3cs0t8cq6y3"]
+
+[ext_resource type="PackedScene" uid="uid://bgg7mi2qk5jeb" path="res://spacer/content/background/parallax_background_test.tscn" id="1_8txs8"]
+[ext_resource type="Texture2D" uid="uid://dvicqjnxaqh60" path="res://kenney/resources/prototype/Purple/texture_02.png" id="2_g7bf1"]
+[ext_resource type="PackedScene" uid="uid://dh3g2lkacnv5i" path="res://spacer/content/ship_builder/ship_builder.tscn" id="4_j5c76"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4la4r"]
+size = Vector2(1665, 256)
+
+[node name="TestScene" type="Node2D"]
+
+[node name="ParallaxBackground" parent="." instance=ExtResource("1_8txs8")]
+
+[node name="Block" type="StaticBody2D" parent="."]
+
+[node name="SpaceBuilding004" type="TextureRect" parent="Block"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -832.5
+offset_top = -128.0
+offset_right = 832.5
+offset_bottom = 128.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_g7bf1")
+stretch_mode = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Block"]
+position = Vector2(-0.5, 0)
+shape = SubResource("RectangleShape2D_4la4r")
+
+[node name="ShipBuilder" parent="." instance=ExtResource("4_j5c76")]

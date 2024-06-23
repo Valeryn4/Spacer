@@ -1,0 +1,55 @@
+[gd_scene load_steps=6 format=3 uid="uid://d28pn58s22ecs"]
+
+[ext_resource type="PackedScene" uid="uid://cf8v7iufmir5j" path="res://spacer/content/ship_builder/structures/structure_base.tscn" id="1_4najv"]
+[ext_resource type="Texture2D" uid="uid://crufmgydo1atr" path="res://viper/resources/viper_ships.sprites/Ships/Ship4/Parts/ship4_body1.tres" id="3_n601e"]
+[ext_resource type="Texture2D" uid="uid://ceb7xw1ohid2w" path="res://kenney/resources/cursor_default/cursor_default.sprites/cursor_default/disabled.tres" id="4_0cqj5"]
+[ext_resource type="PackedScene" uid="uid://d2cvykd55pkb5" path="res://spacer/content/ship_builder/structures/connector.tscn" id="4_xq62r"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qnskn"]
+size = Vector2(39, 28)
+
+[node name="StructureBase" instance=ExtResource("1_4najv")]
+structure_key = 1
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="." index="0"]
+polygon = PackedVector2Array(-15, -9, -18, -4, -18, 6, -15, 11, 0, 11, 5, 8, 14, 8, 17, 6, 17, -6, 15, -9)
+
+[node name="Sprite" type="Sprite2D" parent="CollisionShape2D" index="0"]
+texture = ExtResource("3_n601e")
+flip_h = true
+
+[node name="Panel" parent="Hover" index="0"]
+offset_left = -22.0
+offset_top = -17.0
+offset_right = 23.0
+offset_bottom = 17.0
+
+[node name="Panel" parent="Select" index="0"]
+offset_left = -22.0
+offset_top = -17.0
+offset_right = 23.0
+offset_bottom = 17.0
+
+[node name="Connector" parent="Area2DDetector" index="0" instance=ExtResource("4_xq62r")]
+position = Vector2(-18, 1)
+rotation = 3.14159
+
+[node name="Connector2" parent="Area2DDetector" index="1" instance=ExtResource("4_xq62r")]
+position = Vector2(17, 0)
+rotation = 6.28318
+
+[node name="Connector3" parent="Area2DDetector" index="2" instance=ExtResource("4_xq62r")]
+position = Vector2(-7, -9)
+rotation = 4.71238
+
+[node name="Connector4" parent="Area2DDetector" index="3" instance=ExtResource("4_xq62r")]
+position = Vector2(-7, 11)
+rotation = 7.85397
+
+[node name="CollisionShape2D" parent="Area2DMuse" index="0"]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_qnskn")
+
+[node name="Failed" parent="ButtonRoot" index="0"]
+scale = Vector2(0.3125, 0.3125)
+texture = ExtResource("4_0cqj5")

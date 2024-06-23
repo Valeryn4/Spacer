@@ -1,0 +1,59 @@
+[gd_scene load_steps=8 format=3 uid="uid://dbwry5uuu6d32"]
+
+[ext_resource type="PackedScene" uid="uid://cf8v7iufmir5j" path="res://spacer/content/ship_builder/structures/structure_base.tscn" id="1_xejvb"]
+[ext_resource type="Texture2D" uid="uid://dqcqm07yh6wfd" path="res://kenney/resources/space_shooter/space_shooter.sprites/space_shooter/Building/spaceBuilding_004.tres" id="2_cvu0k"]
+[ext_resource type="Resource" uid="uid://jsx6dfbpc51b" path="res://spacer/content/ship_builder/structures/info_data/res_info_structure_1.tres" id="2_r4b7p"]
+[ext_resource type="Texture2D" uid="uid://ceb7xw1ohid2w" path="res://kenney/resources/cursor_default/cursor_default.sprites/cursor_default/disabled.tres" id="3_icuil"]
+[ext_resource type="Texture2D" uid="uid://cde0ybe8q5x5g" path="res://kenney/resources/simple_space/simple_space.sprites/simple_space/icon_plusSmall.tres" id="5_bl6fx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qcate"]
+size = Vector2(62, 176)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_03va8"]
+size = Vector2(92, 144)
+
+[node name="StructureBase" instance=ExtResource("1_xejvb")]
+info_data = ExtResource("2_r4b7p")
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="." index="0"]
+polygon = PackedVector2Array(-30, -82, 30, -82, 40, -72, 40, 72, 30, 82, -30, 82, -40, 72, -40, -72)
+
+[node name="Sprite" type="Sprite2D" parent="CollisionShape2D" index="0"]
+texture = ExtResource("2_cvu0k")
+
+[node name="Panel" parent="Hover" index="0"]
+offset_left = -49.0
+offset_top = -90.0
+offset_right = 49.0
+offset_bottom = 91.0
+
+[node name="Panel" parent="Select" index="0"]
+offset_left = -49.0
+offset_top = -90.0
+offset_right = 49.0
+offset_bottom = 91.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" index="0"]
+shape = SubResource("RectangleShape2D_qcate")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D" index="1"]
+shape = SubResource("RectangleShape2D_03va8")
+
+[node name="Failed" parent="ButtonRoot" index="0"]
+texture = ExtResource("3_icuil")
+
+[node name="IC" type="Sprite2D" parent="Connect" index="0"]
+position = Vector2(-46, -8)
+texture = ExtResource("5_bl6fx")
+
+[node name="IC2" type="Sprite2D" parent="Connect" index="1"]
+position = Vector2(46, -8)
+texture = ExtResource("5_bl6fx")
+
+[node name="IC3" type="Sprite2D" parent="Connect" index="2"]
+position = Vector2(0, -88)
+texture = ExtResource("5_bl6fx")
+
+[node name="IC4" type="Sprite2D" parent="Connect" index="3"]
+position = Vector2(0, 88)
+texture = ExtResource("5_bl6fx")

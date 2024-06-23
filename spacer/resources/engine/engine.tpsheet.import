@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://cowxnueixpdw1"
+path="res://.godot/imported/engine.tpsheet-b5e1a65dbf6431c7d59a4d4ee9986d1c.res"
+
+[deps]
+
+files=["res://spacer/resources/engine/engine.sprites/engine_4.tres", "res://spacer/resources/engine/engine.sprites/engine_3.tres", "res://spacer/resources/engine/engine.sprites/engine_0.tres", "res://spacer/resources/engine/engine.sprites/engine_1.tres", "res://spacer/resources/engine/engine.sprites/engine_2.tres"]
+
+source_file="res://spacer/resources/engine/engine.tpsheet"
+dest_files=["res://.godot/imported/engine.tpsheet-b5e1a65dbf6431c7d59a4d4ee9986d1c.res", "res://spacer/resources/engine/engine.sprites/engine_4.tres", "res://spacer/resources/engine/engine.sprites/engine_3.tres", "res://spacer/resources/engine/engine.sprites/engine_0.tres", "res://spacer/resources/engine/engine.sprites/engine_1.tres", "res://spacer/resources/engine/engine.sprites/engine_2.tres"]
+
+[params]
+

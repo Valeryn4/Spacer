@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=3 uid="uid://dsk5u8l6mb6lm"]
+
+[ext_resource type="Texture2D" uid="uid://4gp7io6kjrvi" path="res://spacer/resources/parts/part_1.tres" id="1_c4rim"]
+[ext_resource type="Script" path="res://spacer/content/ship_builder/ship_structure_root.gd" id="1_mxicu"]
+[ext_resource type="Script" path="res://spacer/content/ship_builder/ship_root_area.gd" id="2_w8x5y"]
+[ext_resource type="PackedScene" uid="uid://d2cvykd55pkb5" path="res://spacer/content/ship_builder/structures/connector.tscn" id="3_20uxf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ilu8m"]
+size = Vector2(12, 12)
+
+[node name="CollisionShape2D" type="CollisionShape2D"]
+shape = SubResource("RectangleShape2D_ilu8m")
+script = ExtResource("1_mxicu")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_c4rim")
+
+[node name="Area2DRoot" type="Area2D" parent="."]
+unique_name_in_owner = true
+collision_layer = 4
+collision_mask = 0
+input_pickable = false
+monitoring = false
+script = ExtResource("2_w8x5y")
+
+[node name="Connector" parent="Area2DRoot" instance=ExtResource("3_20uxf")]
+position = Vector2(6, 0)
+state = 0
+
+[node name="Connector2" parent="Area2DRoot" instance=ExtResource("3_20uxf")]
+position = Vector2(-6, 0)
+rotation = 3.14159
+state = 0
+
+[node name="Connector3" parent="Area2DRoot" instance=ExtResource("3_20uxf")]
+position = Vector2(0, -6)
+rotation = 4.71238
+state = 0
+
+[node name="Connector4" parent="Area2DRoot" instance=ExtResource("3_20uxf")]
+position = Vector2(0, 6)
+rotation = 7.85397
+state = 0

@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dx36r7dkv6uq4"]
+
+[ext_resource type="Texture2D" uid="uid://cnl5mbuwbh2y3" path="res://kenney/resources/pixel_blocks/pixel_blocks.png" id="1_jgqvq"]
+
+[resource]
+atlas = ExtResource("1_jgqvq")
+region = Rect2(2, 2, 18, 18)

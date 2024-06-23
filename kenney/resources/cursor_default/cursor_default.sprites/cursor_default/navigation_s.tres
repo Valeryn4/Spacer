@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://d03yr8phq4hjb"]
+
+[ext_resource type="Texture2D" uid="uid://crwwqke4kbowm" path="res://kenney/resources/cursor_default/cursor_default-0.png" id="1_uoxxv"]
+
+[resource]
+atlas = ExtResource("1_uoxxv")
+region = Rect2(366, 259, 42, 30)
+margin = Rect2(11, 17, 22, 34)

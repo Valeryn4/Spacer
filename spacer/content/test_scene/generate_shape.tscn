@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://jirqu7y6ecd5"]
+
+[ext_resource type="Script" path="res://spacer/content/test_scene/generate_shape.gd" id="1_4qerg"]
+[ext_resource type="Texture2D" uid="uid://c1au3evcjx1vy" path="res://void/resources/pack_2/base/Nautolan Ship - Battlecruiser - Base.png" id="2_w1ck8"]
+[ext_resource type="Texture2D" uid="uid://bv5ixxwohb0hd" path="res://void/resources/pack_2/base/Nautolan Ship - Bomber - Base.png" id="3_qk7t2"]
+[ext_resource type="Texture2D" uid="uid://bc4m1nlgbct7e" path="res://void/resources/pack_2/base/Nautolan Ship - Frigate - Base.png" id="4_4ftsn"]
+
+[node name="GenerateShape" type="Node2D"]
+script = ExtResource("1_4qerg")
+metadata/_edit_vertical_guides_ = [-90.0, 53.0]
+metadata/_edit_horizontal_guides_ = [-73.0, 53.0]
+
+[node name="NautolanShip-Battlecruiser-Base" type="Sprite2D" parent="."]
+position = Vector2(-53, 6)
+texture = ExtResource("2_w1ck8")
+
+[node name="NautolanShip-Battlecruiser-Base2" type="Sprite2D" parent="."]
+position = Vector2(178, 152)
+texture = ExtResource("2_w1ck8")
+
+[node name="NautolanShip-Battlecruiser-Base3" type="Sprite2D" parent="."]
+position = Vector2(125, -103)
+texture = ExtResource("2_w1ck8")
+
+[node name="NautolanShip-Bomber-Base" type="Sprite2D" parent="."]
+position = Vector2(35, 0)
+texture = ExtResource("3_qk7t2")
+
+[node name="NautolanShip-Frigate-Base" type="Sprite2D" parent="."]
+position = Vector2(30, -53)
+texture = ExtResource("4_4ftsn")
+
+[node name="Camera2D" type="Camera2D" parent="."]

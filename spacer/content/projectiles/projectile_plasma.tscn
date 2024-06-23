@@ -1,0 +1,114 @@
+[gd_scene load_steps=20 format=3 uid="uid://mxsm5jw4v15a"]
+
+[ext_resource type="Script" path="res://spacer/content/projectiles/projectile_plasma.gd" id="1_bqdjw"]
+[ext_resource type="PackedScene" uid="uid://bdqyw6ptqr2oe" path="res://spacer/content/projectiles/projectile.tscn" id="1_iy6vl"]
+[ext_resource type="Texture2D" uid="uid://y3dm24fj3hi7" path="res://viper/resources/shots/Shot5/shot5_1.png" id="1_xag4p"]
+[ext_resource type="Texture2D" uid="uid://bsem23n0x3pkk" path="res://viper/resources/shots/Shot5/shot5_2.png" id="2_eyofr"]
+[ext_resource type="Texture2D" uid="uid://d2r47iulyjwtw" path="res://viper/resources/shots/Shot5/shot5_3.png" id="3_n3oun"]
+[ext_resource type="Texture2D" uid="uid://bm1ojf15xc5l3" path="res://viper/resources/shots/Shot5/shot5_4.png" id="4_wnpb1"]
+[ext_resource type="Texture2D" uid="uid://bnyq0iivudgs4" path="res://viper/resources/shots/Shot5/shot5_exp2.png" id="5_h1go0"]
+[ext_resource type="Texture2D" uid="uid://bqlrci4udupxm" path="res://viper/resources/shots/Shot5/shot5_exp3.png" id="6_tsmrr"]
+[ext_resource type="Texture2D" uid="uid://g2wjajsts65j" path="res://viper/resources/shots/Shot5/shot5_exp4.png" id="7_qxqcl"]
+[ext_resource type="Texture2D" uid="uid://bb4ihunlspgrm" path="res://viper/resources/shots/Shot5/shot5_exp5.png" id="8_jml4f"]
+[ext_resource type="Texture2D" uid="uid://b20xkjeyd6omc" path="res://viper/resources/shots/Shot5/shot5_exp6.png" id="9_7mrhf"]
+[ext_resource type="Texture2D" uid="uid://b2ghf5tvq3e1l" path="res://viper/resources/shots/Shot5/shot5_exp7.png" id="10_ws3hk"]
+[ext_resource type="Texture2D" uid="uid://blpadglg1a6ja" path="res://viper/resources/shots/Shot5/shot5_exp8.png" id="11_1ukba"]
+[ext_resource type="Texture2D" uid="uid://h6ii6omr2q7g" path="res://viper/resources/shots/Shot5/shot5_5.png" id="12_uomcr"]
+[ext_resource type="Texture2D" uid="uid://ci4200bsp6jtl" path="res://viper/resources/shots/Shot5/shot5_asset.png" id="13_xjrei"]
+[ext_resource type="Texture2D" uid="uid://drsnn53a83c26" path="res://viper/resources/shots/Shot5/shot5_exp1.png" id="14_qjoqt"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rtsvq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xag4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_eyofr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_n3oun")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_wnpb1")
+}],
+"loop": false,
+"name": &"emit",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_h1go0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_tsmrr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_qxqcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_jml4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_7mrhf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ws3hk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_1ukba")
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": false,
+"name": &"explotion",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_uomcr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_xjrei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_qjoqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_xjrei")
+}],
+"loop": true,
+"name": &"fly",
+"speed": 15.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7rsh1"]
+radius = 18.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_dpaop"]
+radius = 5.0
+
+[node name="Projectile" instance=ExtResource("1_iy6vl")]
+script = ExtResource("1_bqdjw")
+traveling_deg_sec = 45.0
+
+[node name="Anim" type="AnimatedSprite2D" parent="." index="0"]
+unique_name_in_owner = true
+position = Vector2(0, -2)
+sprite_frames = SubResource("SpriteFrames_rtsvq")
+animation = &"emit"
+
+[node name="CS" type="CollisionShape2D" parent="Area2DExplotion" index="0"]
+position = Vector2(14, 0)
+shape = SubResource("CircleShape2D_7rsh1")
+disabled = true
+
+[node name="VisibleOnScreenNotifier2D" parent="." index="2"]
+scale = Vector2(4.5, 3.1)
+
+[node name="CS" type="CollisionShape2D" parent="." index="3"]
+position = Vector2(4, 0)
+shape = SubResource("CircleShape2D_dpaop")
+
+[connection signal="animation_finished" from="Anim" to="." method="_on_animated_sprite_2d_animation_finished"]

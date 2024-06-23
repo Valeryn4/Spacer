@@ -1,0 +1,67 @@
+[gd_scene load_steps=7 format=3 uid="uid://wo5c30yy5ltu"]
+
+[ext_resource type="PackedScene" uid="uid://cf8v7iufmir5j" path="res://spacer/content/ship_builder/structures/structure_base.tscn" id="1_jdjly"]
+[ext_resource type="Texture2D" uid="uid://dx0p1pdljrtmm" path="res://viper/resources/viper_ships.sprites/Ships/Ship4/Parts/ship4_detail.tres" id="3_uva75"]
+[ext_resource type="Texture2D" uid="uid://ceb7xw1ohid2w" path="res://kenney/resources/cursor_default/cursor_default.sprites/cursor_default/disabled.tres" id="4_ix7yy"]
+[ext_resource type="PackedScene" uid="uid://d2cvykd55pkb5" path="res://spacer/content/ship_builder/structures/connector.tscn" id="4_pk3ip"]
+[ext_resource type="PackedScene" uid="uid://cys42p1vq22a4" path="res://spacer/content/ship_builder/structures/connector_dot.tscn" id="5_qr84u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3qsph"]
+size = Vector2(44, 28)
+
+[node name="StructureBase" instance=ExtResource("1_jdjly")]
+structure_key = 3
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="." index="0"]
+polygon = PackedVector2Array(-19, -12, 14, -12, 23, -8, 23, 5, 18, 13, -7, 13, -19, 6)
+
+[node name="Sprite" type="Sprite2D" parent="CollisionShape2D" index="0"]
+position = Vector2(-5.5, -3)
+texture = ExtResource("3_uva75")
+
+[node name="Panel" parent="Hover" index="0"]
+offset_left = -38.0
+offset_top = -29.0
+offset_right = 38.0
+offset_bottom = 29.0
+
+[node name="Panel" parent="Select" index="0"]
+offset_left = -38.0
+offset_top = -29.0
+offset_right = 38.0
+offset_bottom = 29.0
+
+[node name="Connector" parent="Area2DDetector" index="0" instance=ExtResource("4_pk3ip")]
+position = Vector2(23, 0)
+
+[node name="Connector2" parent="Area2DDetector" index="1" instance=ExtResource("4_pk3ip")]
+position = Vector2(9, -12)
+rotation = -1.57079
+
+[node name="Connector3" parent="Area2DDetector" index="2" instance=ExtResource("4_pk3ip")]
+position = Vector2(-7, -12)
+rotation = -1.57079
+
+[node name="Connector4" parent="Area2DDetector" index="3" instance=ExtResource("4_pk3ip")]
+position = Vector2(-19, 0)
+rotation = -3.14159
+
+[node name="Connector5" parent="Area2DDetector" index="4" instance=ExtResource("4_pk3ip")]
+position = Vector2(-7, 13)
+rotation = -4.71238
+
+[node name="Connector6" parent="Area2DDetector" index="5" instance=ExtResource("4_pk3ip")]
+position = Vector2(9, 13)
+rotation = -4.71238
+
+[node name="Connector7" parent="Area2DDetector" index="6" instance=ExtResource("5_qr84u")]
+z_index = 0
+position = Vector2(-28, 14)
+
+[node name="CollisionShape2D" parent="Area2DMuse" index="0"]
+position = Vector2(2, 0)
+shape = SubResource("RectangleShape2D_3qsph")
+
+[node name="Failed" parent="ButtonRoot" index="0"]
+scale = Vector2(0.3125, 0.3125)
+texture = ExtResource("4_ix7yy")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cj233nw6a34r8"]
+
+[ext_resource type="Script" path="res://spacer/content/ship_builder/modules/module.gd" id="1_uvmoh"]
+
+[node name="ModuleHitBox" type="Node2D"]
+script = ExtResource("1_uvmoh")
+
+[node name="Shapes" type="Node2D" parent="."]
+unique_name_in_owner = true

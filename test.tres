@@ -1,0 +1,51 @@
+[gd_resource type="Resource" script_class="GameShipData" load_steps=8 format=3]
+
+[ext_resource type="Resource" path="res://spacer/content/ship_builder/structures/info_data/res_info_structure_base_left_1.tres" id="1_utbjv"]
+[ext_resource type="Resource" path="res://spacer/content/ship_builder/structures/info_data/res_info_structure_1.tres" id="2_xssl3"]
+[ext_resource type="Resource" path="res://spacer/content/ship_builder/structures/info_data/res_info_structure_base_2.tres" id="3_ghap3"]
+[ext_resource type="Resource" path="res://spacer/content/ship_builder/structures/info_data/res_info_structure_base_left_3.tres" id="4_lkp3a"]
+[ext_resource type="Resource" path="res://spacer/content/ship_builder/structures/info_data/res_info_structure_base_right_3.tres" id="5_sfscp"]
+[ext_resource type="Resource" path="res://spacer/content/ship_builder/structures/info_data/res_info_structure_engine_1.tres" id="6_b5m38"]
+[ext_resource type="Script" path="res://spacer/content/ship_builder/ship/ship_data.gd" id="7_stjsj"]
+
+[resource]
+script = ExtResource("7_stjsj")
+component_positions_from_ID = {
+0: Vector2(-32.3353, -28.3332),
+1: Vector2(-23.3704, 0.489532),
+2: Vector2(8.30291, -17.0042),
+3: Vector2(10.7356, 21.4193),
+4: Vector2(-24.3394, 20.4896),
+5: Vector2(0.648132, -45.0201),
+6: Vector2(-72.6622, -19.2827),
+7: Vector2(-91.6632, -20.0012),
+8: Vector2(-48.3724, -4.33167),
+9: Vector2(-51.3867, -49.2853),
+10: Vector2(32.6753, 3.32788),
+11: Vector2(-72.0388, 5.71811),
+12: Vector2(-16.3335, 38.4897),
+13: Vector2(19.6495, -52.6657),
+14: Vector2(16.6631, 38.4196),
+15: Vector2(-17.3521, -52.3797),
+16: Vector2(-48.6667, 24.6714)
+}
+component_rotations_from_ID = {
+0: -1.5708,
+1: 0.0,
+2: 0.0,
+3: 0.0,
+4: 0.0,
+5: -1.5708,
+6: -1.5708,
+7: -1.5708,
+8: -1.5708,
+9: 0.0,
+10: 1.5708,
+11: 0.0,
+12: -1.5708,
+13: -1.5708,
+14: 0.0,
+15: 1.5708,
+16: 1.5708
+}
+component_list = Array[Resource]([ExtResource("1_utbjv"), ExtResource("1_utbjv"), ExtResource("1_utbjv"), ExtResource("2_xssl3"), ExtResource("2_xssl3"), ExtResource("3_ghap3"), ExtResource("3_ghap3"), ExtResource("4_lkp3a"), ExtResource("4_lkp3a"), ExtResource("5_sfscp"), ExtResource("5_sfscp"), ExtResource("6_b5m38"), ExtResource("6_b5m38"), ExtResource("6_b5m38"), ExtResource("6_b5m38"), ExtResource("6_b5m38"), ExtResource("6_b5m38")])
